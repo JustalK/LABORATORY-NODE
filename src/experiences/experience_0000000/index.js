@@ -1,5 +1,9 @@
-module.exports = function(app){
-    app.get('/', function(req, res){
-        res.send('Template Experience')
-    });
-}
+const express = require('express')
+const router = express.Router()
+
+router.get('/', function(req, res){
+    res.send('Template experience!')
+});
+
+
+module.exports = router

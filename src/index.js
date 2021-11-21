@@ -1,7 +1,7 @@
 const { readdirSync } = require('fs')
 const express = require('express')
 const app = express()
-const port = 3000
+const port = 5000
 
 readdirSync('src/experiences').forEach((direct) => {
   app.use(`/${direct}`, require(`./experiences/${direct}`))
