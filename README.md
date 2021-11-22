@@ -6,3 +6,4 @@ This project is just a testing laboratory on different package of Node.js
 
 * Template for experience
 * Testing the kriasoft/envars for encoding and decoding env files
+* Testing the envalid for validating env file variables
